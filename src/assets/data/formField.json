@@ -1,0 +1,124 @@
+{
+	"id": "0001",
+	"campaign_name": "Nutrilite",
+	"form_name": "Registration Form",
+	"form_id": "0001-0001",
+	"Styling Colour": "Navy",
+	"ID Verification": {
+		"fields": [
+			{
+				"fieldID": "F0001",
+				"fieldLabel": "Citizenship",
+				"fieldType": "Dropdown",
+				"Options": ["Malaysian", "Non Malaysian"],
+				"Validation": "NA",
+				"Row": "1",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0002",
+				"fieldLabel": "Malaysian NRIC Number",
+				"fieldType": "InputField",
+				"Validation": "12 Digit ONLY",
+				"Row": "2",
+				"Column": "1"
+			}
+		]
+	},
+	"Personal Information": {
+		"fields": [
+			{
+				"fieldID": "F0003",
+				"fieldLabel": "Name as NRIC",
+				"fieldType": "InputField",
+				"Validation": "Alphabet ONLY",
+				"Row": "3",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0004",
+				"fieldLabel": "Preferred Name",
+				"fieldType": "InputField",
+				"Validation": "Alphanumeric",
+				"Row": "4",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0005",
+				"fieldLabel": "Date of Birth",
+				"fieldType": "Calendar",
+				"Validation": "NA",
+				"Row": "5",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0006",
+				"fieldLabel": "Gender",
+				"fieldType": "Radio Button",
+				"Options": ["Male", "Female"],
+				"Validation": "NA",
+				"Row": "6",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0007",
+				"fieldLabel": "Ethnicity",
+				"fieldType": "Dropdown",
+				"Options": ["Malay", "Native", "Chinese", "Indian", "Others"],
+				"Validation": "NA",
+				"Row": "7",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0008",
+				"fieldLabel": "Marital Status",
+				"fieldType": "Dropdown",
+				"Options": ["Married", "Single", "Preferred not to disclosed"],
+				"Validation": "NA",
+				"Row": "8",
+				"Column": "1"
+			},
+			{
+				"fieldLabel": "Mobile",
+				"fieldID": "F0009",
+				"fieldType": "Mobile InputField",
+				"Validation": "8 Digit Only",
+				"Row": "9",
+				"Column": "1"
+			},
+			{
+				"fieldID": "F0010",
+				"fieldLabel": "Email Address",
+				"fieldType": "Input Field",
+				"Validation": "Email Validation",
+				"Row": "10",
+				"Column": "1"
+			}
+		]
+	},
+	"Newsletter Subscription": {
+		"fields": [
+			{
+				"fieldID": "F0011",
+				"fieldLabel": "Preferred Notification Mode",
+				"fieldType": "Checkbox",
+				"Options": ["Email", "SMS", "I want to opt out"],
+				"Validation": "Multiple Selection",
+				"Row": "11",
+				"Column": "1"
+			}
+		]
+	},
+	"Declaration & Acceptance": {
+		"fields": [
+			{
+				"fieldID": "F0012",
+				"fieldLabel": "I have read and agreed to the TERMS & CONDITIONS",
+				"fieldType": "Mandatory Checkbox",
+				"Validation": "NA",
+				"Row": "12",
+				"Column": "1"
+			}
+		]
+	}
+}
